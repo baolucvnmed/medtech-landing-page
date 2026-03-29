@@ -1,0 +1,338 @@
+<!DOCTYPE html><html class="dark" lang="vi"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Sovereign Clinical | Chuyên gia Tư vấn Công nghệ Y tế</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&amp;family=Manrope:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "surface-container-low": "#1c1b1b",
+              "tertiary": "#bfcdff",
+              "primary-fixed": "#ffe088",
+              "tertiary-fixed": "#dbe1ff",
+              "on-primary-fixed-variant": "#574500",
+              "on-secondary-fixed-variant": "#544519",
+              "on-tertiary-container": "#254188",
+              "inverse-primary": "#735c00",
+              "tertiary-container": "#97b0ff",
+              "on-primary-container": "#554300",
+              "error-container": "#93000a",
+              "surface-container-highest": "#353534",
+              "on-primary": "#3c2f00",
+              "on-tertiary-fixed": "#00174b",
+              "secondary-fixed": "#f7e1a6",
+              "on-background": "#e5e2e1",
+              "primary-container": "#d4af37",
+              "on-secondary-container": "#c8b37d",
+              "surface-dim": "#131313",
+              "on-surface-variant": "#d0c5af",
+              "secondary-container": "#544519",
+              "on-tertiary-fixed-variant": "#27438a",
+              "inverse-surface": "#e5e2e1",
+              "surface-bright": "#393939",
+              "surface-container-high": "#2a2a2a",
+              "on-primary-fixed": "#241a00",
+              "on-error-container": "#ffdad6",
+              "error": "#ffb4ab",
+              "on-surface": "#e5e2e1",
+              "primary-fixed-dim": "#e9c349",
+              "on-tertiary": "#082b72",
+              "inverse-on-surface": "#313030",
+              "surface-container": "#201f1f",
+              "on-secondary": "#3c2f05",
+              "primary": "#f2ca50",
+              "tertiary-fixed-dim": "#b4c5ff",
+              "surface-tint": "#e9c349",
+              "on-error": "#690005",
+              "surface-variant": "#353534",
+              "secondary-fixed-dim": "#dac58d",
+              "outline-variant": "#4d4635",
+              "surface-container-lowest": "#0e0e0e",
+              "outline": "#99907c",
+              "secondary": "#dac58d",
+              "surface": "#131313",
+              "on-secondary-fixed": "#241a00",
+              "background": "#131313"
+            },
+            fontFamily: {
+              "headline": ["Noto Serif"],
+              "body": ["Manrope"],
+              "label": ["Manrope"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .notoSerif { font-family: 'Noto Serif', serif; }
+        .manrope { font-family: 'Manrope', sans-serif; }
+    </style>
+</head>
+<body class="bg-surface text-on-surface manrope selection:bg-primary/30">
+<!-- TopAppBar -->
+<nav class="bg-stone-900/80 backdrop-blur-xl rounded-none sticky top-0 z-50 shadow-[0_20px_40px_-10px_rgba(229,226,225,0.06)]">
+<div class="flex justify-between items-center w-full px-8 py-4 max-w-screen-2xl mx-auto">
+<div class="text-2xl font-bold text-yellow-500 tracking-tight notoSerif" style="">Medtech Consultant</div>
+<div class="hidden md:flex items-center gap-10">
+<a class="text-yellow-500 border-b-2 border-yellow-500 pb-1 manrope text-sm tracking-widest uppercase font-semibold" href="#home" style="">Home</a>
+<a class="text-stone-400 hover:text-stone-200 transition-colors manrope text-sm tracking-widest uppercase font-semibold" href="#about" style="">About</a>
+<a class="text-stone-400 hover:text-stone-200 transition-colors manrope text-sm tracking-widest uppercase font-semibold" href="#services" style="">Services</a>
+<a class="text-stone-400 hover:text-stone-200 transition-colors manrope text-sm tracking-widest uppercase font-semibold" href="#portfolio" style="">Portfolio</a>
+</div>
+<a class="bg-primary text-on-primary px-6 py-2 rounded-sm font-bold transition-transform active:scale-90 hover:brightness-110" href="#contact" style="">Contact</a>
+</div>
+</nav>
+<!-- Hero Section -->
+<section class="relative min-h-[921px] flex items-center overflow-hidden pt-12" id="home">
+<div class="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-surface-container-high/40 via-surface to-surface z-0"></div>
+<div class="max-w-screen-2xl mx-auto px-8 w-full grid grid-cols-1 lg:grid-cols-12 gap-12 items-center relative z-10">
+<div class="lg:col-span-7">
+<div class="inline-block px-4 py-1 mb-6 border border-primary/20 bg-primary/5 rounded-full">
+<span class="manrope text-xs tracking-[0.2em] text-primary uppercase font-bold" style="">Expertise &amp; Authority</span>
+</div>
+<h1 class="notoSerif text-5xl md:text-7xl lg:text-8xl text-on-surface leading-[1.1] mb-8 tracking-tight" style="">
+                    Hơn <span class="text-primary italic" style="">10 năm</span> Chuyên gia Tư vấn Công nghệ cao Y tế &amp; Chuyển đổi số Bệnh viện thông minh</h1>
+<p class="manrope text-lg text-on-surface-variant max-w-xl mb-10 leading-relaxed font-light" style="">
+                    Đồng hành cùng các bệnh viện và cơ sở y tế trong việc nâng tầm công nghệ, tối ưu hóa quy trình vận hành và ứng dụng các giải pháp lâm sàng tiên tiến nhất thế giới.
+                </p>
+<div class="flex flex-col sm:flex-row gap-6">
+<button class="bg-primary text-on-primary px-10 py-4 rounded-sm font-extrabold text-sm tracking-widest uppercase hover:shadow-[0_0_20px_rgba(242,202,80,0.3)] transition-all" style="">Liên hệ Tư vấn</button>
+<button class="border border-outline-variant/30 text-primary px-10 py-4 rounded-sm font-extrabold text-sm tracking-widest uppercase hover:bg-surface-container-high transition-all" style="">Xem Dự án</button>
+</div>
+</div>
+<div class="lg:col-span-5 relative group">
+<div class="aspect-[4/5] bg-surface-container-low overflow-hidden rounded-sm relative shadow-2xl">
+<img alt="Chuyên gia Công nghệ Y tế" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700 opacity-90 group-hover:opacity-100 scale-105 group-hover:scale-100" data-alt="Professional portrait of a middle-aged Asian medical technology expert in a modern charcoal suit, neutral studio lighting, editorial style photography" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDUnBFs63sjzZm43M9IGSAIu-aC12kjZCjUBN5x0uAFVcNMGy-qe3EPccBTEAtCNGPo7JZDk7lAxgC3UiT6qYDUFZA4daAyV2sy9nirChbfWGhOahu63sE1zwbM1g05cKq4wgkLoa65rwRVdz8tU2OWJvCyjI-IvrEVtChLODNp4jFDj1smRfuQN2ajN3nwYTgLtjoJrQtcURuZHBGARaC8VDbIMvPiyQvJvzHpZKYvgJYT30QtQdsU19VkBU5mHJo2l89Gk8R94gCm" style="">
+<div class="absolute inset-0 bg-gradient-to-t from-surface via-transparent to-transparent opacity-60"></div>
+</div>
+<!-- Decorative elements -->
+<div class="absolute -bottom-6 -right-6 w-32 h-32 border-r-2 border-b-2 border-primary/40"></div>
+<div class="absolute -top-6 -left-6 w-16 h-16 border-l-2 border-t-2 border-primary/40"></div>
+</div>
+</div>
+</section>
+<!-- About Me Section -->
+<section class="py-32 bg-surface" id="about">
+<div class="max-w-screen-2xl mx-auto px-8 grid grid-cols-1 lg:grid-cols-12 gap-20 items-start">
+<div class="lg:col-span-4 sticky top-32">
+<h2 class="notoSerif text-4xl text-primary mb-6" style="">Di sản &amp; Tầm nhìn</h2>
+<div class="h-1 w-20 bg-primary mb-8"></div>
+<p class="manrope text-on-surface-variant text-sm tracking-[0.1em] uppercase font-bold" style="">Kiến tạo tương lai y tế số tại Việt Nam</p>
+</div>
+<div class="lg:col-span-8">
+<div class="space-y-12">
+<p class="notoSerif text-3xl leading-snug text-on-surface" style="">
+                        Với hơn một thập kỷ cống hiến trong ngành Công nghệ Y tế, tôi tập trung vào việc thu hẹp khoảng cách giữa đổi mới quốc tế và thực tiễn lâm sàng tại Việt Nam.
+                    </p>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+<div class="p-8 bg-surface-container-low border-l border-primary/20">
+<h3 class="manrope font-extrabold text-primary mb-3 text-xs uppercase tracking-widest" style="">Chuyển giao Công nghệ</h3>
+<p class="text-on-surface-variant leading-relaxed" style="">Kết nối các đối tác thiết bị y tế hàng đầu từ Châu Mỹ, Châu Âu, Châu Á với các bệnh viện tuyến đầu, đảm bảo quy trình vận hành tiêu chuẩn quốc tế và tuân thủ khung pháp lý tại Việt Nam</p>
+</div>
+<div class="p-8 bg-surface-container-low border-l border-primary/20">
+<h3 class="manrope font-extrabold text-primary mb-3 text-xs uppercase tracking-widest" style="">Tư vấn Chiến lược</h3>
+<p class="text-on-surface-variant leading-relaxed" style="">Xây dựng lộ trình chuyển đổi số, xây dựng giải pháp thông minh toàn diện cho các hệ thống bệnh viện đa khoa và chuyên khoa, từ EMR, ứng dụng AI đến quản lý dữ liệu lâm sàng.</p>
+</div>
+</div>
+<p class="manrope text-on-surface-variant leading-relaxed text-lg" style="">
+                        Tầm nhìn của tôi là xây dựng một hệ sinh thái y tế thông minh, nơi dữ liệu, công nghệ được kết nối liền mạch để hỗ trợ các bác sĩ đưa ra quyết định chính xác nhất, đồng thời tối ưu hóa trải nghiệm chăm sóc cho người bệnh.
+                    </p>
+</div>
+</div>
+</div>
+</section>
+<!-- Services Section -->
+<section class="py-32 bg-surface-container-low" id="services">
+<div class="max-w-screen-2xl mx-auto px-8">
+<div class="mb-20 text-center max-w-2xl mx-auto">
+<span class="manrope text-xs tracking-[0.3em] text-primary uppercase font-bold mb-4 block" style="">Giải pháp Chuyên nghiệp</span>
+<h2 class="notoSerif text-5xl text-on-surface" style="">Dịch vụ Tư vấn Cốt lõi</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-1">
+<!-- Card 1 -->
+<div class="bg-surface group p-12 transition-all duration-500 hover:bg-surface-container-high border-b md:border-b-0 md:border-r border-outline-variant/10">
+<div class="mb-10 text-primary">
+<span class="material-symbols-outlined text-5xl" style="font-variation-settings: &quot;FILL&quot; 0;">biotech</span>
+</div>
+<h3 class="notoSerif text-2xl mb-6 text-on-surface" style="">Tư vấn Thiết bị Y tế mới</h3>
+<p class="manrope text-on-surface-variant leading-relaxed mb-8 opacity-80" style="">Đánh giá nhu cầu lâm sàng và tư vấn lựa chọn hệ thống chẩn đoán hình ảnh, xét nghiệm và điều trị tiên tiến nhất.</p>
+<ul class="space-y-3 manrope text-sm text-on-surface-variant">
+<li class="flex items-center gap-3" style=""><span class="w-1.5 h-1.5 bg-primary rounded-full"></span> Lập kế hoạch đầu tư thiết bị</li>
+<li class="flex items-center gap-3" style=""><span class="w-1.5 h-1.5 bg-primary rounded-full"></span> Thẩm định kỹ thuật chuyên sâu</li>
+<li class="flex items-center gap-3" style=""><span class="w-1.5 h-1.5 bg-primary rounded-full"></span> Đào tạo chuyển giao vận hành</li>
+</ul>
+</div>
+<!-- Card 2 -->
+<div class="bg-surface group p-12 transition-all duration-500 hover:bg-surface-container-high border-b md:border-b-0 md:border-r border-outline-variant/10">
+<div class="mb-10 text-primary">
+<span class="material-symbols-outlined text-5xl" style="font-variation-settings: &quot;FILL&quot; 0;">digital_wellbeing</span>
+</div>
+<h3 class="notoSerif text-2xl mb-6 text-on-surface" style="">Chuyển đổi số Bệnh viện</h3>
+<p class="manrope text-on-surface-variant leading-relaxed mb-8 opacity-80" style="">Tích hợp các hệ thống HIS, LIS, RIS-PACS và EMR vào một nền tảng dữ liệu tập trung, bảo mật và hiệu quả.</p>
+<ul class="space-y-3 manrope text-sm text-on-surface-variant">
+<li class="flex items-center gap-3" style=""><span class="w-1.5 h-1.5 bg-primary rounded-full"></span> Thiết kế hạ tầng CNTT Y tế</li>
+<li class="flex items-center gap-3" style=""><span class="w-1.5 h-1.5 bg-primary rounded-full"></span> Triển khai hồ sơ bệnh án điện tử, ứng dụng AI trong quản lý vận hành và khám chữa bệnh</li>
+<li class="flex items-center gap-3" style=""><span class="w-1.5 h-1.5 bg-primary rounded-full"></span> Tư vấn bảo mật dữ liệu y khoa</li>
+</ul>
+</div>
+<!-- Card 3 -->
+<div class="bg-surface group p-12 transition-all duration-500 hover:bg-surface-container-high">
+<div class="mb-10 text-primary">
+<span class="material-symbols-outlined text-5xl" style="font-variation-settings: &quot;FILL&quot; 0;">public</span>
+</div>
+<h3 class="notoSerif text-2xl mb-6 text-on-surface" style="">Chuyển giao Công nghệ Quốc tế</h3>
+<p class="manrope text-on-surface-variant leading-relaxed mb-8 opacity-80" style="">Cầu nối thương mại và kỹ thuật giữa các tập đoàn MedTech đa quốc gia và thị trường y tế năng động tại Việt Nam.</p>
+<ul class="space-y-3 manrope text-sm text-on-surface-variant">
+<li class="flex items-center gap-3" style=""><span class="w-1.5 h-1.5 bg-primary rounded-full"></span> Tìm kiếm đối tác quốc tế</li>
+<li class="flex items-center gap-3" style=""><span class="w-1.5 h-1.5 bg-primary rounded-full"></span> Tư vấn đăng ký lưu hành (VMD)</li>
+<li class="flex items-center gap-3" style=""><span class="w-1.5 h-1.5 bg-primary rounded-full"></span> Chiến lược thâm nhập thị trường</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<!-- Portfolio Section (Asymmetric Bento Grid) -->
+<section class="py-32 bg-surface overflow-hidden" id="portfolio">
+<div class="max-w-screen-2xl mx-auto px-8">
+<div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
+<div class="max-w-xl">
+<span class="manrope text-xs tracking-[0.3em] text-primary uppercase font-bold mb-4 block" style="">Các dự án tiêu biểu</span>
+<h2 class="notoSerif text-5xl text-on-surface" style="">Minh chứng cho sự chuyên nghiệp</h2>
+</div>
+<div class="hidden md:block">
+<button class="text-primary hover:text-white transition-colors flex items-center gap-4 manrope uppercase tracking-widest font-bold text-xs" style="">
+                        Tất cả dự án <span class="material-symbols-outlined" style="">arrow_forward</span>
+</button>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-12 gap-6 h-auto md:h-[800px]">
+<!-- Project 1 -->
+<div class="md:col-span-8 bg-surface-container-low relative group overflow-hidden rounded-sm">
+<img alt="Dự án PACS" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-1000 group-hover:scale-105" data-alt="Interior of a high-tech radiology department with large medical screens showing detailed X-ray scans, blue accent lighting, hospital setting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB_ZWn-nUpemOglff5dHaGR2aBNtp3bNh0LxCQNhU8ksX7gVXFOCYMEO34GCAxhibGUxvaPk3InWex5cwNlBo2itLnQeHv2zBoVBQ9TT9Hn-03RMx1HsjI03w1vbIXD24QV-_VKhhEmZN4VBSpPojp2gG3M3Cmucx3Apfhq8M1yG26NEmCTRpByMOgRIYNb7tc8nF3Jn3zUH3-6CdutIWmZV81pOvTVEXklqVi2fCuHSMxvKKOfbCX5_23mmohGS6w8Dp7wNco_lPSC" style="">
+<div class="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-950/20 to-transparent p-12 flex flex-col justify-end">
+<span class="manrope text-[10px] tracking-[0.3em] uppercase text-primary font-bold mb-2" style="">Chuyển đổi số</span>
+<h3 class="notoSerif text-3xl text-on-surface" style="">Triển khai hệ thống RIS-PACS toàn diện tích hợp AI tại Bệnh viện Phụ sản Hải Phòng</h3>
+</div>
+</div>
+<!-- Project 2 -->
+<div class="md:col-span-4 bg-surface-container-low relative group overflow-hidden rounded-sm">
+<img alt="Dự án thiết bị" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-1000 group-hover:scale-105" data-alt="Modern medical laboratory with sophisticated automated analysis machines, clean white and steel aesthetic, precision medical engineering" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBr-WskLZ77rDM_021tuE9eTZGhsfhW0NZ3ZZhP7iTRHVqD08t5Axd5Rd4ErCJaiHRQLd0LOZo6E8qc7KsQUTTm3mdLnV9Ev_IIh-H_rFPJAfeBS9fzyPfmV9uI4vGZE8UvWCw1juIPgXN3Miv4mGes3wus1cYAKpPM6WR8klxxPVJgnhYv4MNPpHGrU2PoYswE0lRsWfuHKHxvXL8Kvy4S91TtV1HfFV3v5hSm2jOOz0bHDjGwuc2Ni4aydEbUhsQAoaUKhirDF17h" style="">
+<div class="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-950/40 to-transparent p-10 flex flex-col justify-end">
+<span class="manrope text-[10px] tracking-[0.3em] uppercase text-primary font-bold mb-2" style="">Tư vấn Thiết bị</span>
+<h3 class="notoSerif text-2xl text-on-surface" style="">Gói giải pháp Chẩn đoán hình ảnh cao cấp cho Chuỗi Bệnh viện Phổi tại Viêt</h3>
+</div>
+</div>
+<!-- Project 3 -->
+<div class="md:col-span-5 bg-surface-container-low relative group overflow-hidden rounded-sm">
+<img alt="Chuyển giao công nghệ" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-1000 group-hover:scale-105" data-alt="Scientific researcher looking at microscopic data on multiple monitors, futuristic medical research laboratory, cool blue tones" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBLqp4hWWk_LxzZ92w3sWw2bexW2buzVNfABD2aqEbV3ZodHgBMLA_C2lG8thUyhRwQmwQ0FA1S_y1CvppGVF5YQ3nH4Esob6At8y6rAfRWj9fIHWcbL3JvAH1BK8ni6XHP-SvayeMwXwWvxfgmH01KgUllpXCwuSyfMMcsxg4156iefm0pfGvBjjnl763UtaEIBV3NR5TXlkqYjMNo9h_ASyyAP9-mgoBJrLSSxtI_gwQc2rJBbcKJQYhIi-6-V6pbduF-O_xbCcIn" style="">
+<div class="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-950/40 to-transparent p-10 flex flex-col justify-end">
+<span class="manrope text-[10px] tracking-[0.3em] uppercase text-primary font-bold mb-2" style="">Chuyển giao Quốc tế</span>
+<h3 class="notoSerif text-2xl text-on-surface" style="">Triển khai phát triển thị trường cho Nhà sản xuất thiết bị Oxy cao áp IBEX tại Việt Nam</h3>
+</div>
+</div>
+<!-- Project 4 -->
+<div class="md:col-span-7 bg-surface-container-low relative group overflow-hidden rounded-sm">
+<img alt="Kỹ thuật y tế" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-1000 group-hover:scale-105" data-alt="Precision surgical robotic arm close-up, high-tech operation room environment, focus on detailed mechanical joints and metallic surfaces" src="https://lh3.googleusercontent.com/aida-public/AB6AXuApNwVn2782eG9bcRun89jRkyFyxH2mmM-WGWfIEJ7M4BITuotqszVPi0WpGx7uF53LT4-NuFqoRYvWjhcLUm0vg29ar6dhJILC2Hstv8QaBgoIUoRa1i90YEetN2Z66ZVbw1SagMMIoVuW_Yy_F8hru-W6gQ0C6FS_NPFsTP9-vOzQJg5TEya2zxpRhMAbQ5n64TFEMJADXSFcJwFteRxw9Q2RW3XqixqN02zrPJBfAwzDBXyF2EjA6Bs-AJPGnWPsu3T7TzpM7tdd" style="">
+<div class="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-950/40 to-transparent p-12 flex flex-col justify-end">
+<span class="manrope text-[10px] tracking-[0.3em] uppercase text-primary font-bold mb-2" style="">Dự án Đặc biệt</span>
+<h3 class="notoSerif text-3xl text-on-surface" style=""><h3 class="notoSerif text-2xl text-on-surface cursor-text" spellcheck="false" data-stitch-added-classes="cursor-text" style="--tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / 0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; --tw-text-opacity: 1; color: rgb(229, 226, 225); outline: none !important;">Hợp tác Đào tạo Kỹ thuật cao cho các bác sỹ tại Hàn Quốc với Tập đoàn Meere Robot phẫu thuật Revo</h3></h3>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Contact Section -->
+<section class="py-32 bg-surface-container-low relative overflow-hidden" id="contact">
+<div class="max-w-screen-2xl mx-auto px-8 relative z-10">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-24 items-center">
+<div>
+<h2 class="notoSerif text-5xl text-on-surface mb-10" style="">Sẵn sàng nâng cấp công nghệ chăm sóc sức khỏe?</h2>
+<p class="manrope text-on-surface-variant mb-12 text-lg font-light leading-relaxed" style="">
+                        Hãy để lại thông tin hoặc liên hệ trực tiếp qua các kênh dưới đây để cùng thảo luận về các giải pháp công nghệ phù hợp nhất cho tổ chức của bạn.
+                    </p>
+<div class="space-y-8">
+<div class="flex items-center gap-6 group">
+<div class="w-14 h-14 bg-surface rounded-sm flex items-center justify-center border border-primary/20 group-hover:border-primary transition-colors">
+<span class="material-symbols-outlined text-primary" style="">mail</span>
+</div>
+<div>
+<p class="manrope text-[10px] tracking-widest text-primary uppercase font-bold" style="">Email</p>
+<p class="manrope text-lg text-on-surface font-semibold" style="">baolucvn@gmail.com</p>
+</div>
+</div>
+<div class="flex items-center gap-6 group">
+<div class="w-14 h-14 bg-surface rounded-sm flex items-center justify-center border border-primary/20 group-hover:border-primary transition-colors">
+<span class="material-symbols-outlined text-primary" style="">call</span>
+</div>
+<div>
+<p class="manrope text-[10px] tracking-widest text-primary uppercase font-bold" style="">Hotline</p>
+<p class="manrope text-lg text-on-surface font-semibold" style="">+84 977 456 000</p>
+</div>
+</div>
+<div class="flex items-center gap-6 group">
+<div class="w-14 h-14 bg-surface rounded-sm flex items-center justify-center border border-primary/20 group-hover:border-primary transition-colors">
+<span class="material-symbols-outlined text-primary" style="">groups</span>
+</div>
+<div>
+<p class="manrope text-[10px] tracking-widest text-primary uppercase font-bold" style="">LinkedIn</p>
+<p class="manrope text-lg text-on-surface font-semibold" style="">https://www.linkedin.com/in/luc-bao-1b92704b</p>
+</div>
+</div>
+</div>
+</div>
+<div class="bg-surface p-12 rounded-sm shadow-2xl relative">
+<div class="absolute -top-4 -left-4 w-12 h-12 bg-primary flex items-center justify-center shadow-lg">
+<span class="material-symbols-outlined text-on-primary" style="">edit_note</span>
+</div>
+<form action="#" class="space-y-6">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div class="space-y-2">
+<label class="manrope text-[10px] uppercase tracking-widest text-on-surface-variant font-bold" style="">Họ và Tên</label>
+<input class="w-full bg-surface-container-highest border-none focus:ring-1 focus:ring-primary/40 p-4 text-on-surface rounded-sm" placeholder="Nguyễn Văn A" type="text">
+</div>
+<div class="space-y-2">
+<label class="manrope text-[10px] uppercase tracking-widest text-on-surface-variant font-bold" style="">Số điện thoại</label>
+<input class="w-full bg-surface-container-highest border-none focus:ring-1 focus:ring-primary/40 p-4 text-on-surface rounded-sm" placeholder="0908xxxxxx" type="tel">
+</div>
+</div>
+<div class="space-y-2">
+<label class="manrope text-[10px] uppercase tracking-widest text-on-surface-variant font-bold" style="">Đơn vị / Tổ chức</label>
+<input class="w-full bg-surface-container-highest border-none focus:ring-1 focus:ring-primary/40 p-4 text-on-surface rounded-sm" placeholder="Bệnh viện / Phòng khám ..." type="text">
+</div>
+<div class="space-y-2">
+<label class="manrope text-[10px] uppercase tracking-widest text-on-surface-variant font-bold" style="">Yêu cầu Tư vấn</label>
+<textarea class="w-full bg-surface-container-highest border-none focus:ring-1 focus:ring-primary/40 p-4 text-on-surface rounded-sm h-32" placeholder="Tôi quan tâm đến giải pháp..."></textarea>
+</div>
+<button class="w-full bg-primary text-on-primary font-extrabold uppercase tracking-widest py-5 rounded-sm hover:brightness-110 active:scale-95 transition-all" type="submit" style="">Gửi thông tin tư vấn</button>
+</form>
+</div>
+</div>
+</div>
+<!-- Abstract Decoration -->
+<div class="absolute bottom-0 right-0 w-1/3 h-2/3 bg-primary/5 blur-[120px] rounded-full z-0"></div>
+</section>
+<!-- Footer -->
+<footer class="bg-stone-950 w-full py-12 border-t border-stone-800/30">
+<div class="flex flex-col md:flex-row justify-between items-center px-12 w-full gap-6 max-w-screen-2xl mx-auto">
+<div class="text-lg font-semibold text-stone-200 notoSerif" style="">Sovereign Clinical</div>
+<div class="manrope text-xs tracking-widest uppercase text-stone-500 text-center" style="">
+                © 2024 Sovereign Clinical. Editorial Authority in Medical Technology.
+            </div>
+<div class="flex gap-8">
+<a class="manrope text-xs tracking-widest uppercase text-stone-500 hover:text-yellow-400 transition-colors opacity-80 hover:opacity-100" href="#" style="">LinkedIn</a>
+<a class="manrope text-xs tracking-widest uppercase text-stone-500 hover:text-yellow-400 transition-colors opacity-80 hover:opacity-100" href="#" style="">ResearchGate</a>
+<a class="manrope text-xs tracking-widest uppercase text-stone-500 hover:text-yellow-400 transition-colors opacity-80 hover:opacity-100" href="#" style="">Privacy Policy</a>
+</div>
+</div>
+</footer>
+</body></html>
